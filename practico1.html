@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diario del Lunes</title>
+    <link rel="stylesheet" href="practico1.css" />
+  </head>
+  <body>
+    <!--CUESTIONARIO:
+
+    <h1>< HTML > + { CSS } - Parte I</h1>
+    <p>
+      ¿Cómo es la estructura de un documento HTML? Investigar para qué sirve
+      cada sección del documento.<br />
+      Un documento HTML esta compuesto por un doctype, un html, un head y un
+      body. El doctype sirve para indicarle <br />
+      al navegador que version del html se esta usando. La parte html indica
+      donde arranca y termina el html.<br />
+      En el head se colocan los metadatos de la pagina y en el body va todo el
+      contenido de la pagina visible para el usuario.
+    </p>
+
+    <p>
+      ¿Para qué sirven los estilos web? ¿Cómo se aplican los estilos al
+      contenido de una página web?<br />
+      Los estilos web sirven para cambiar la apariencia y los estilos del html y
+      se aplican creando un <br />
+      archivo css con el cual se le da formato a los selectores.
+    </p>
+
+    <p>
+      ¿Qué tipos de selectores existen en CSS? ¿Cuándo conviene usar cada uno de
+      ellos?<br />
+      Estan los llamados tipos, que le aportan estilo a las etiquetas del html,
+      conviene usarlos siempre que sea posible. <br />
+      Estan las clases, que se usan cuando se le quiere aplicar el mismo estilo
+      a diferentes etiquetas. <br />
+      Y por ultimo estan los id que sirven para darle estilo a una etiqueta
+      especifica.
+    </p>
+
+    <p>
+      Acceder al código escrito en <a href="https://codepen.io/webUnicen/pen/qvJBbj">https://codepen.io/webUnicen/pen/qvJBbj</a>.
+      Detectar errores y malas prácticas.<br />
+      Entre las malas practicas esta el uso de mayusculas para las etiquetas,
+      todo se escribe en minusculas.<br />
+      No estan bien indentados los renglones, y no estan todas las partes del
+      archivo html. En el css falta punto y coma al final de la sentencia, <br>
+      y le faltan los dos puntos antes del italic para que se aplique el formato.
+    </p> 
+  
+  FALTA TERMINAR:
+  Aplicar estilos al sitio para darle una imagen corporativa. Cada una de las páginas debe tener una imagen visual unificada. 
+  Asigne dentro del sitio colores a las fuentes, diversos  tipos de fuentes, tamaños y estilos de texto. Utilice tamaños relativos 
+  de fuentes  en las diferentes secciones del sitio.-->
+  
+    <div id="fixed">
+    <div class="encabezado">
+    <h1>D i a r i o&nbsp&nbsp&nbspdel&nbsp&nbsp&nbspL u n e s</h1>
+    <img id="luna" src="luna.JPG" alt="">
+    </div>
+    <nav>
+      
+      <div id="menu">
+        <ul>
+          <li ><a class="menu" href="noticia1.html"><h2 class="not">Noticias Políticas</h2></li></a>
+          <li ><a class="menu" href="noticia2.html"><h2 class="not">Noticias Deportivas</h2></li></a>
+          <li><a class="menu"  href="practico1.html"><h2 class="not">Página Principal</h2></a></li>
+          <li><a href="suscripcion.html"><button><h2 id="susc">Suscribite</h2></button></a></li>
+          <li><a href="ingreso.html"><h2>Ingresá</h2></a></li>
+        </ul>
+        
+      </div>
+    </nav>
+  </div>
+    <section>
+        <div id="notPol">
+          <a href="noticia1.html"><h3>No te la viste venir</h3></a>
+            <p class="justificado">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dignissimos animi saepe repellendus velit molestiae natus quos dolorem ullam dolore eius porro non debitis dolores commodi, obcaecati, sint fuga exercitationem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptatibus sint facere nobis odio commodi fugiat et, tempora culpa quo perferendis necessitatibus a aliquam temporibus ab consectetur quas adipisci quos.
+            Assumenda fuga veritatis sapiente? Commodi, fugit debitis est voluptatem veritatis saepe facilis incidunt repellat atque, dignissimos ducimus consectetur perspiciatis sapiente temporibus optio. Sed ex veritatis a! Quisquam eos repellat blanditiis.</p>
+        </div>
+        <div id="notDep">
+                <a href="noticia2.html"><h3>Furor por el Fulbito de los viernes</h3></a>
+                <p class="justificado">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni debitis esse quam, deleniti expedita cupiditate, aliquam provident natus blanditiis ipsa, labore reiciendis earum ad dignissimos iste distinctio. Deleniti, quas in!. Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, consequuntur. Quia aliquid, quisquam natus facilis ad quas totam voluptate voluptas animi itaque. Quas provident veniam, excepturi facere modi reiciendis quisquam!
+                Iste, labore sed rem aperiam porro sapiente itaque? Corporis, reprehenderit, vel possimus eius nisi commodi, dolore voluptatum animi dolor quam tenetur ducimus dolorem sed? Vero voluptatum molestias minima rem exercitationem?</p>
+              
+        </div>
+    </section>
+    <footer><h4>Diario del Lunes <span>2024</span></h4></footer>
+    <script src="practico1.js"></script>
+  </body>
+</html>
